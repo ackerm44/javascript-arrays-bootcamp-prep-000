@@ -13,5 +13,13 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  return array.push(element); 
+  return array.push(element);
+}
+
+function accessElementInArray(array, index) {
+  return array[index];
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array) {
+  return days.shift(); 
 }
