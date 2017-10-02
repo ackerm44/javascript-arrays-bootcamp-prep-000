@@ -21,7 +21,7 @@ function accessElementInArray(array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  return days.shift();
+  return array.shift();
 }
 
 function removeElementFromBeginningOfArray(array) {
